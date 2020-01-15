@@ -1,0 +1,1483 @@
+{
+  "contractName": "AssetManagement",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "ethusd",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "update",
+      "outputs": [],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"ethusd\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"update\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/midhilkari/Desktop/SolodityQuiz/contracts/AssetManagement.sol\":\"AssetManagement\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/midhilkari/Desktop/SolodityQuiz/contracts/AssetManagement.sol\":{\"keccak256\":\"0xc09779a95a2e13974bc5b85ff4e89322ad8e14f9e423f4840b18a313fb30a1fc\",\"urls\":[\"bzz-raw://4f5fe7644fb1c609b32b7ea3b46a77ed7d41566fcc836e6c6fdf7d27c5d9a4df\",\"dweb:/ipfs/QmRsfchikat9uPuG28YdTWzPaioyGTZiCEHq3PdGACKyku\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061021f806100206000396000f3fe6080604052600436106100295760003560e01c806361150aae1461002e578063a2e6204514610059575b600080fd5b34801561003a57600080fd5b50610043610063565b6040518082815260200191505060405180910390f35b610061610069565b005b60005481565b600073a24df0420de1f3b8d740a52aaeb9d55d6d64478e905060008173ffffffffffffffffffffffffffffffffffffffff1663ed815d838373ffffffffffffffffffffffffffffffffffffffff1663b0667cf86040518163ffffffff1660e01b815260040160206040518083038186803b1580156100e657600080fd5b505afa1580156100fa573d6000803e3d6000fd5b505050506040513d602081101561011057600080fd5b81019080805190602001909291905050506040518263ffffffff1660e01b81526004018080602001828103825260098152602001807f53504f5450582f464200000000000000000000000000000000000000000000008152506020019150506060604051808303818588803b15801561018857600080fd5b505af115801561019c573d6000803e3d6000fd5b50505050506040513d60608110156101b357600080fd5b81019080805190602001909291908051906020019092919080519060200190929190505050505090508060001c600081905550505056fea265627a7a72315820a14cda0454424f847387d55d8dded6b6023a3ba147173f830534581d19a3492d64736f6c634300050c0032",
+  "deployedBytecode": "0x6080604052600436106100295760003560e01c806361150aae1461002e578063a2e6204514610059575b600080fd5b34801561003a57600080fd5b50610043610063565b6040518082815260200191505060405180910390f35b610061610069565b005b60005481565b600073a24df0420de1f3b8d740a52aaeb9d55d6d64478e905060008173ffffffffffffffffffffffffffffffffffffffff1663ed815d838373ffffffffffffffffffffffffffffffffffffffff1663b0667cf86040518163ffffffff1660e01b815260040160206040518083038186803b1580156100e657600080fd5b505afa1580156100fa573d6000803e3d6000fd5b505050506040513d602081101561011057600080fd5b81019080805190602001909291905050506040518263ffffffff1660e01b81526004018080602001828103825260098152602001807f53504f5450582f464200000000000000000000000000000000000000000000008152506020019150506060604051808303818588803b15801561018857600080fd5b505af115801561019c573d6000803e3d6000fd5b50505050506040513d60608110156101b357600080fd5b81019080805190602001909291908051906020019092919080519060200190929190505050505090508060001c600081905550505056fea265627a7a72315820a14cda0454424f847387d55d8dded6b6023a3ba147173f830534581d19a3492d64736f6c634300050c0032",
+  "sourceMap": "293:270:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;293:270:0;;;;;;;",
+  "deployedSourceMap": "293:270:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;322:21;;8:9:-1;5:2;;;30:1;27;20:12;5:2;322:21:0;;;:::i;:::-;;;;;;;;;;;;;;;;;;;348:213;;;:::i;:::-;;322:21;;;;:::o;348:213::-;387:13;410:42;387:66;;460:11;477:6;:12;;;496:6;:17;;;:19;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;496:19:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;496:19:0;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;496:19:0;;;;;;;;;;;;;;;;477:52;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;477:52:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;477:52:0;;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;477:52:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;459:70;;;;552:3;544:12;;535:6;:21;;;;348:213;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\ninterface Oracle {\n  enum QueryStatus { INVALID, OK, NOT_AVAILABLE, DISAGREEMENT }\n  function query(bytes calldata input)\n    external payable returns (bytes32 output, uint256 updatedAt, QueryStatus status);\n  function queryPrice() external view returns (uint256);\n}\n\ncontract AssetManagement {\n  uint256 public ethusd;\n\n  function update() public payable {\n    Oracle oracle = Oracle(0xa24dF0420dE1f3b8d740A52AAEB9d55d6D64478e);\n    (bytes32 raw,,) = oracle.query.value(oracle.queryPrice())(\"SPOTPX/FB\");\n    ethusd = uint256(raw);\n  }\n}",
+  "sourcePath": "/Users/midhilkari/Desktop/SolodityQuiz/contracts/AssetManagement.sol",
+  "ast": {
+    "absolutePath": "/Users/midhilkari/Desktop/SolodityQuiz/contracts/AssetManagement.sol",
+    "exportedSymbols": {
+      "AssetManagement": [
+        54
+      ],
+      "Oracle": [
+        23
+      ]
+    },
+    "id": 55,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 23,
+        "linearizedBaseContracts": [
+          23
+        ],
+        "name": "Oracle",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Oracle.QueryStatus",
+            "id": 6,
+            "members": [
+              {
+                "id": 2,
+                "name": "INVALID",
+                "nodeType": "EnumValue",
+                "src": "65:7:0"
+              },
+              {
+                "id": 3,
+                "name": "OK",
+                "nodeType": "EnumValue",
+                "src": "74:2:0"
+              },
+              {
+                "id": 4,
+                "name": "NOT_AVAILABLE",
+                "nodeType": "EnumValue",
+                "src": "78:13:0"
+              },
+              {
+                "id": 5,
+                "name": "DISAGREEMENT",
+                "nodeType": "EnumValue",
+                "src": "93:12:0"
+              }
+            ],
+            "name": "QueryStatus",
+            "nodeType": "EnumDefinition",
+            "src": "46:61:0"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 17,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "query",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8,
+                  "name": "input",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 17,
+                  "src": "125:20:0",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 7,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "125:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "124:22:0"
+            },
+            "returnParameters": {
+              "id": 16,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 11,
+                  "name": "output",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 17,
+                  "src": "177:14:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 10,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "177:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 13,
+                  "name": "updatedAt",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 17,
+                  "src": "193:17:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 12,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "193:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 15,
+                  "name": "status",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 17,
+                  "src": "212:18:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_QueryStatus_$6",
+                    "typeString": "enum Oracle.QueryStatus"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 14,
+                    "name": "QueryStatus",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 6,
+                    "src": "212:11:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_QueryStatus_$6",
+                      "typeString": "enum Oracle.QueryStatus"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "176:55:0"
+            },
+            "scope": 23,
+            "src": "110:122:0",
+            "stateMutability": "payable",
+            "superFunction": null,
+            "visibility": "external"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 22,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "queryPrice",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 18,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "254:2:0"
+            },
+            "returnParameters": {
+              "id": 21,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 22,
+                  "src": "280:7:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 19,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "280:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "279:9:0"
+            },
+            "scope": 23,
+            "src": "235:54:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 55,
+        "src": "25:266:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 54,
+        "linearizedBaseContracts": [
+          54
+        ],
+        "name": "AssetManagement",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 25,
+            "name": "ethusd",
+            "nodeType": "VariableDeclaration",
+            "scope": 54,
+            "src": "322:21:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 24,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "322:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 52,
+              "nodeType": "Block",
+              "src": "381:180:0",
+              "statements": [
+                {
+                  "assignments": [
+                    29
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 29,
+                      "name": "oracle",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 52,
+                      "src": "387:13:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Oracle_$23",
+                        "typeString": "contract Oracle"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 28,
+                        "name": "Oracle",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 23,
+                        "src": "387:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Oracle_$23",
+                          "typeString": "contract Oracle"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 33,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "307861323464463034323064453166336238643734304135324141454239643535643644363434373865",
+                        "id": 31,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "410:42:0",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        },
+                        "value": "0xa24dF0420dE1f3b8d740A52AAEB9d55d6D64478e"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      ],
+                      "id": 30,
+                      "name": "Oracle",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 23,
+                      "src": "403:6:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_contract$_Oracle_$23_$",
+                        "typeString": "type(contract Oracle)"
+                      }
+                    },
+                    "id": 32,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "typeConversion",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "403:50:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Oracle_$23",
+                      "typeString": "contract Oracle"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "387:66:0"
+                },
+                {
+                  "assignments": [
+                    35,
+                    null,
+                    null
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 35,
+                      "name": "raw",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 52,
+                      "src": "460:11:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      },
+                      "typeName": {
+                        "id": 34,
+                        "name": "bytes32",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "460:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    null,
+                    null
+                  ],
+                  "id": 45,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "53504f5450582f4642",
+                        "id": 43,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "517:11:0",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_5d96a5a0b22a3cf75ec7c899746d387a08f548e065818b3a04900188d4702bda",
+                          "typeString": "literal_string \"SPOTPX/FB\""
+                        },
+                        "value": "SPOTPX/FB"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_5d96a5a0b22a3cf75ec7c899746d387a08f548e065818b3a04900188d4702bda",
+                          "typeString": "literal_string \"SPOTPX/FB\""
+                        }
+                      ],
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "arguments": [],
+                          "expression": {
+                            "argumentTypes": [],
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 39,
+                              "name": "oracle",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 29,
+                              "src": "496:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_Oracle_$23",
+                                "typeString": "contract Oracle"
+                              }
+                            },
+                            "id": 40,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "queryPrice",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 22,
+                            "src": "496:17:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
+                              "typeString": "function () view external returns (uint256)"
+                            }
+                          },
+                          "id": 41,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "496:19:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 36,
+                            "name": "oracle",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 29,
+                            "src": "477:6:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_Oracle_$23",
+                              "typeString": "contract Oracle"
+                            }
+                          },
+                          "id": 37,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "query",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 17,
+                          "src": "477:12:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_payable$_t_bytes_memory_ptr_$returns$_t_bytes32_$_t_uint256_$_t_enum$_QueryStatus_$6_$",
+                            "typeString": "function (bytes memory) payable external returns (bytes32,uint256,enum Oracle.QueryStatus)"
+                          }
+                        },
+                        "id": 38,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "value",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": null,
+                        "src": "477:18:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_setvalue_pure$_t_uint256_$returns$_t_function_external_payable$_t_bytes_memory_ptr_$returns$_t_bytes32_$_t_uint256_$_t_enum$_QueryStatus_$6_$value_$",
+                          "typeString": "function (uint256) pure returns (function (bytes memory) payable external returns (bytes32,uint256,enum Oracle.QueryStatus))"
+                        }
+                      },
+                      "id": 42,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "477:39:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_payable$_t_bytes_memory_ptr_$returns$_t_bytes32_$_t_uint256_$_t_enum$_QueryStatus_$6_$value",
+                        "typeString": "function (bytes memory) payable external returns (bytes32,uint256,enum Oracle.QueryStatus)"
+                      }
+                    },
+                    "id": 44,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "477:52:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_bytes32_$_t_uint256_$_t_enum$_QueryStatus_$6_$",
+                      "typeString": "tuple(bytes32,uint256,enum Oracle.QueryStatus)"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "459:70:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 50,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 46,
+                      "name": "ethusd",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 25,
+                      "src": "535:6:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "id": 48,
+                          "name": "raw",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 35,
+                          "src": "552:3:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        ],
+                        "id": 47,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "544:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_uint256_$",
+                          "typeString": "type(uint256)"
+                        },
+                        "typeName": "uint256"
+                      },
+                      "id": 49,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "544:12:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "535:21:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 51,
+                  "nodeType": "ExpressionStatement",
+                  "src": "535:21:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 53,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "update",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 26,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "363:2:0"
+            },
+            "returnParameters": {
+              "id": 27,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "381:0:0"
+            },
+            "scope": 54,
+            "src": "348:213:0",
+            "stateMutability": "payable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 55,
+        "src": "293:270:0"
+      }
+    ],
+    "src": "0:563:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/midhilkari/Desktop/SolodityQuiz/contracts/AssetManagement.sol",
+    "exportedSymbols": {
+      "AssetManagement": [
+        54
+      ],
+      "Oracle": [
+        23
+      ]
+    },
+    "id": 55,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 23,
+        "linearizedBaseContracts": [
+          23
+        ],
+        "name": "Oracle",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Oracle.QueryStatus",
+            "id": 6,
+            "members": [
+              {
+                "id": 2,
+                "name": "INVALID",
+                "nodeType": "EnumValue",
+                "src": "65:7:0"
+              },
+              {
+                "id": 3,
+                "name": "OK",
+                "nodeType": "EnumValue",
+                "src": "74:2:0"
+              },
+              {
+                "id": 4,
+                "name": "NOT_AVAILABLE",
+                "nodeType": "EnumValue",
+                "src": "78:13:0"
+              },
+              {
+                "id": 5,
+                "name": "DISAGREEMENT",
+                "nodeType": "EnumValue",
+                "src": "93:12:0"
+              }
+            ],
+            "name": "QueryStatus",
+            "nodeType": "EnumDefinition",
+            "src": "46:61:0"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 17,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "query",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8,
+                  "name": "input",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 17,
+                  "src": "125:20:0",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 7,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "125:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "124:22:0"
+            },
+            "returnParameters": {
+              "id": 16,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 11,
+                  "name": "output",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 17,
+                  "src": "177:14:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 10,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "177:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 13,
+                  "name": "updatedAt",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 17,
+                  "src": "193:17:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 12,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "193:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 15,
+                  "name": "status",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 17,
+                  "src": "212:18:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_QueryStatus_$6",
+                    "typeString": "enum Oracle.QueryStatus"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 14,
+                    "name": "QueryStatus",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 6,
+                    "src": "212:11:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_QueryStatus_$6",
+                      "typeString": "enum Oracle.QueryStatus"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "176:55:0"
+            },
+            "scope": 23,
+            "src": "110:122:0",
+            "stateMutability": "payable",
+            "superFunction": null,
+            "visibility": "external"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 22,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "queryPrice",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 18,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "254:2:0"
+            },
+            "returnParameters": {
+              "id": 21,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 20,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 22,
+                  "src": "280:7:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 19,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "280:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "279:9:0"
+            },
+            "scope": 23,
+            "src": "235:54:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 55,
+        "src": "25:266:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 54,
+        "linearizedBaseContracts": [
+          54
+        ],
+        "name": "AssetManagement",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 25,
+            "name": "ethusd",
+            "nodeType": "VariableDeclaration",
+            "scope": 54,
+            "src": "322:21:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 24,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "322:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 52,
+              "nodeType": "Block",
+              "src": "381:180:0",
+              "statements": [
+                {
+                  "assignments": [
+                    29
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 29,
+                      "name": "oracle",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 52,
+                      "src": "387:13:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Oracle_$23",
+                        "typeString": "contract Oracle"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 28,
+                        "name": "Oracle",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 23,
+                        "src": "387:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Oracle_$23",
+                          "typeString": "contract Oracle"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 33,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "307861323464463034323064453166336238643734304135324141454239643535643644363434373865",
+                        "id": 31,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "410:42:0",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        },
+                        "value": "0xa24dF0420dE1f3b8d740A52AAEB9d55d6D64478e"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address_payable",
+                          "typeString": "address payable"
+                        }
+                      ],
+                      "id": 30,
+                      "name": "Oracle",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 23,
+                      "src": "403:6:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_contract$_Oracle_$23_$",
+                        "typeString": "type(contract Oracle)"
+                      }
+                    },
+                    "id": 32,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "typeConversion",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "403:50:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Oracle_$23",
+                      "typeString": "contract Oracle"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "387:66:0"
+                },
+                {
+                  "assignments": [
+                    35,
+                    null,
+                    null
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 35,
+                      "name": "raw",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 52,
+                      "src": "460:11:0",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      },
+                      "typeName": {
+                        "id": 34,
+                        "name": "bytes32",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "460:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    null,
+                    null
+                  ],
+                  "id": 45,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "53504f5450582f4642",
+                        "id": 43,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "517:11:0",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_5d96a5a0b22a3cf75ec7c899746d387a08f548e065818b3a04900188d4702bda",
+                          "typeString": "literal_string \"SPOTPX/FB\""
+                        },
+                        "value": "SPOTPX/FB"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_5d96a5a0b22a3cf75ec7c899746d387a08f548e065818b3a04900188d4702bda",
+                          "typeString": "literal_string \"SPOTPX/FB\""
+                        }
+                      ],
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "arguments": [],
+                          "expression": {
+                            "argumentTypes": [],
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 39,
+                              "name": "oracle",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 29,
+                              "src": "496:6:0",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_Oracle_$23",
+                                "typeString": "contract Oracle"
+                              }
+                            },
+                            "id": 40,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "queryPrice",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": 22,
+                            "src": "496:17:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
+                              "typeString": "function () view external returns (uint256)"
+                            }
+                          },
+                          "id": 41,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "496:19:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 36,
+                            "name": "oracle",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 29,
+                            "src": "477:6:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_Oracle_$23",
+                              "typeString": "contract Oracle"
+                            }
+                          },
+                          "id": 37,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "query",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 17,
+                          "src": "477:12:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_payable$_t_bytes_memory_ptr_$returns$_t_bytes32_$_t_uint256_$_t_enum$_QueryStatus_$6_$",
+                            "typeString": "function (bytes memory) payable external returns (bytes32,uint256,enum Oracle.QueryStatus)"
+                          }
+                        },
+                        "id": 38,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "value",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": null,
+                        "src": "477:18:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_setvalue_pure$_t_uint256_$returns$_t_function_external_payable$_t_bytes_memory_ptr_$returns$_t_bytes32_$_t_uint256_$_t_enum$_QueryStatus_$6_$value_$",
+                          "typeString": "function (uint256) pure returns (function (bytes memory) payable external returns (bytes32,uint256,enum Oracle.QueryStatus))"
+                        }
+                      },
+                      "id": 42,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "477:39:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_payable$_t_bytes_memory_ptr_$returns$_t_bytes32_$_t_uint256_$_t_enum$_QueryStatus_$6_$value",
+                        "typeString": "function (bytes memory) payable external returns (bytes32,uint256,enum Oracle.QueryStatus)"
+                      }
+                    },
+                    "id": 44,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "477:52:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_bytes32_$_t_uint256_$_t_enum$_QueryStatus_$6_$",
+                      "typeString": "tuple(bytes32,uint256,enum Oracle.QueryStatus)"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "459:70:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 50,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 46,
+                      "name": "ethusd",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 25,
+                      "src": "535:6:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "id": 48,
+                          "name": "raw",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 35,
+                          "src": "552:3:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        ],
+                        "id": 47,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "544:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_uint256_$",
+                          "typeString": "type(uint256)"
+                        },
+                        "typeName": "uint256"
+                      },
+                      "id": 49,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "544:12:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "535:21:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 51,
+                  "nodeType": "ExpressionStatement",
+                  "src": "535:21:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 53,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "update",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 26,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "363:2:0"
+            },
+            "returnParameters": {
+              "id": 27,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "381:0:0"
+            },
+            "scope": 54,
+            "src": "348:213:0",
+            "stateMutability": "payable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 55,
+        "src": "293:270:0"
+      }
+    ],
+    "src": "0:563:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.12+commit.7709ece9.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xc03c6D3c3847B9Be308Cb267aF77Ea62231479B3",
+      "transactionHash": "0x33a86016373bb47fd2729568ac68748dfd64e4ce73e935c1bb9cf0da04172031"
+    }
+  },
+  "schemaVersion": "3.0.20",
+  "updatedAt": "2020-01-15T03:39:56.847Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
